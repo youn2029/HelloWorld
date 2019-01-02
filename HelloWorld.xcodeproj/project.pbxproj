@@ -12,6 +12,7 @@
 		4E1B603421DC85A100D0CFB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1B603221DC85A100D0CFB7 /* Main.storyboard */; };
 		4E1B603621DC85A600D0CFB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E1B603521DC85A600D0CFB7 /* Assets.xcassets */; };
 		4E1B603921DC85A600D0CFB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1B603721DC85A600D0CFB7 /* LaunchScreen.storyboard */; };
+		4E1B604121DCA74D00D0CFB7 /* LaunchScreen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1B604021DCA74D00D0CFB7 /* LaunchScreen2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4E1B603521DC85A600D0CFB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E1B603821DC85A600D0CFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E1B603A21DC85A600D0CFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E1B604021DCA74D00D0CFB7 /* LaunchScreen2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				4E1B603221DC85A100D0CFB7 /* Main.storyboard */,
 				4E1B603521DC85A600D0CFB7 /* Assets.xcassets */,
 				4E1B603721DC85A600D0CFB7 /* LaunchScreen.storyboard */,
+				4E1B604021DCA74D00D0CFB7 /* LaunchScreen2.storyboard */,
 				4E1B603A21DC85A600D0CFB7 /* Info.plist */,
 			);
 			path = HelloWorld;
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1B604121DCA74D00D0CFB7 /* LaunchScreen2.storyboard in Resources */,
 				4E1B603921DC85A600D0CFB7 /* LaunchScreen.storyboard in Resources */,
 				4E1B603621DC85A600D0CFB7 /* Assets.xcassets in Resources */,
 				4E1B603421DC85A100D0CFB7 /* Main.storyboard in Resources */,
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.seongho.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.seongho.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

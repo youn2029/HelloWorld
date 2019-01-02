@@ -13,9 +13,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    // 시작화면이 모바일 기기의 스크린에 표시된 후 호출되는 메소드
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        sleep(5)    // 5초 지연
         return true
     }
 
